@@ -1,0 +1,113 @@
+* {
+	padding: 0px;
+    margin: 0px;
+    }
+
+#container {
+    width: 970px;
+    background-color:darkmagenta;
+    font-family: sans-serif;
+}
+
+#header {
+    background-color: whitesmoke;
+    padding: 15px 25px 15px 25px;
+    font-family: 'comic sans ms', 'cursive', sans-serif;
+}
+
+#header h1 {
+    display: inline-block;
+}
+#header h2 {
+    display: inline-block;
+    float: right;
+    margin-top: 5px;
+}
+
+.about {
+    display: flex;
+}
+
+.about img {
+    width: 45%;
+    border: 5px solid grey;
+    margin: 20px 20px 20px 10px;
+}
+
+.about_text {
+    background-color: grey;
+    width: 55%;
+    display: inline-block;
+    margin: 20px 20px 20px 0px;
+    
+}
+
+.about_text h2 {
+    background-color: darkgrey;
+    padding: 8px;
+    color: white;
+    
+}
+
+.about_text p {
+    padding: 8px;
+    background-color: thistle;
+}
+
+.project {
+    display: inline-block;
+    width: 297px;
+    background-color: thistle;
+    margin: 10px;
+    vertical-align: top;   
+    
+}
+
+.project h2, .project h3 {
+    background-color: darkgrey;
+    padding: 8px;
+    color: white;
+
+}
+
+.project p {
+    padding: 8px;
+}
+
+.project img {
+    width: 100%;
+}
+
+.project_images img {
+    width: 15%;
+    padding: 5px;
+    
+}
+
+.project button {
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    margin: 5px 5px 20px 5px;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.footer {
+    background-color: whitesmoke;
+    padding: 10px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.footer img {
+    width: 25px;
+    vertical-align: middle;
+}
+
